@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="194" id="KGk-i7-Jjw" customClass="ZCXYTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="282" height="194"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="282" height="193.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="agreement_bg2" translatesAutoresizingMaskIntoConstraints="NO" id="p6F-ve-der">
+                        <rect key="frame" x="0.0" y="0.0" width="88" height="60"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="414112143444444444444444444444444444" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Trk-1M-7Vm">
+                        <rect key="frame" x="10" y="72" width="262" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fuwu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCL-pO-laN">
+                        <rect key="frame" x="10" y="10" width="40" height="42"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="p6F-ve-der" secondAttribute="trailing" constant="70" id="4Vc-4N-3sU"/>
+                    <constraint firstAttribute="trailing" secondItem="p6F-ve-der" secondAttribute="trailing" constant="194" id="8kj-NT-pX6"/>
+                    <constraint firstItem="CCL-pO-laN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ExP-dj-4nZ"/>
+                    <constraint firstAttribute="trailing" secondItem="p6F-ve-der" secondAttribute="trailing" constant="240" id="Fyk-1t-iJf"/>
+                    <constraint firstItem="p6F-ve-der" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="GWa-U8-JRS"/>
+                    <constraint firstItem="Trk-1M-7Vm" firstAttribute="top" secondItem="CCL-pO-laN" secondAttribute="bottom" constant="20" id="Hbc-fH-TR5"/>
+                    <constraint firstItem="p6F-ve-der" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="P4d-gd-uSN"/>
+                    <constraint firstAttribute="bottom" secondItem="Trk-1M-7Vm" secondAttribute="bottom" constant="10" id="PqG-aF-cRh"/>
+                    <constraint firstItem="Trk-1M-7Vm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="72" id="S3B-tq-E78"/>
+                    <constraint firstItem="Trk-1M-7Vm" firstAttribute="top" secondItem="CCL-pO-laN" secondAttribute="bottom" constant="10" id="V05-Vn-uLv"/>
+                    <constraint firstItem="Trk-1M-7Vm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Ybk-Y7-xKR"/>
+                    <constraint firstItem="CCL-pO-laN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ZI5-WI-Jug"/>
+                    <constraint firstItem="Trk-1M-7Vm" firstAttribute="top" secondItem="p6F-ve-der" secondAttribute="bottom" constant="10" id="e4C-i4-m87"/>
+                    <constraint firstAttribute="trailing" secondItem="p6F-ve-der" secondAttribute="trailing" constant="40" id="k8y-hE-guu"/>
+                    <constraint firstItem="Trk-1M-7Vm" firstAttribute="top" secondItem="p6F-ve-der" secondAttribute="bottom" constant="12" id="m5n-y4-14y"/>
+                    <constraint firstItem="CCL-pO-laN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="nKM-pB-yX4"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="p6F-ve-der" secondAttribute="trailing" constant="100" id="rwi-Lm-COA"/>
+                    <constraint firstAttribute="trailing" secondItem="p6F-ve-der" secondAttribute="trailing" constant="152" id="t6h-1I-kdU"/>
+                    <constraint firstAttribute="trailing" secondItem="Trk-1M-7Vm" secondAttribute="trailing" constant="10" id="ykv-0p-1Ne"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="4Vc-4N-3sU"/>
+                        <exclude reference="Fyk-1t-iJf"/>
+                        <exclude reference="k8y-hE-guu"/>
+                        <exclude reference="rwi-Lm-COA"/>
+                        <exclude reference="t6h-1I-kdU"/>
+                        <exclude reference="PqG-aF-cRh"/>
+                        <exclude reference="V05-Vn-uLv"/>
+                        <exclude reference="e4C-i4-m87"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descLabel" destination="CCL-pO-laN" id="fss-v2-MBL"/>
+                <outlet property="ziLabel" destination="Trk-1M-7Vm" id="e43-Pq-yEn"/>
+            </connections>
+            <point key="canvasLocation" x="334" y="310"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="agreement_bg2" width="301" height="60"/>
+    </resources>
+</document>
